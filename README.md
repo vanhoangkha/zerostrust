@@ -1,4 +1,4 @@
-# 🛡️ Zero Trust 2026 — Complete Series
+# Zero Trust 2026 — Complete Series
 
 [![License: CC BY-NC-SA 4.0](https://img.shields.io/badge/License-CC%20BY--NC--SA%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by-nc-sa/4.0/)
 [![Parts](https://img.shields.io/badge/Parts-7%2F7-success)](.)
@@ -7,7 +7,7 @@
 
 > Series 7 phần về Zero Trust Architecture năm 2026 — từ nguyên lý nền tảng đến lộ trình triển khai thực tế cho doanh nghiệp.
 
-## 📋 Mục lục
+## Mục lục
 
 | # | Phần | Chủ đề chính |
 |---|------|-------------|
@@ -19,7 +19,7 @@
 | 6 | [Zero Trust cho AI Workloads](part6-zero-trust-ai-workloads.md) | NHI, prompt injection, ZT4AI frameworks |
 | 7 | [Lộ trình triển khai](part7-lo-trinh-trien-khai-zero-trust.md) | 4-phase roadmap, ROI, pitfalls, tech stack |
 
-## 🎯 Đối tượng
+## Đối tượng
 
 - **CISO / Security Architects** — Thiết kế và triển khai Zero Trust
 - **IT Leaders / CIOs** — Lập business case và roadmap
@@ -27,7 +27,7 @@
 - **DevSecOps Teams** — Cloud-native & K8s security
 - **AI/ML Engineers** — Bảo mật AI workloads
 
-## 🏗️ Cấu trúc kiến thức
+## Cấu trúc kiến thức
 
 ```
 WHY? ─── Part 1: Tổng quan & Xu hướng 2026
@@ -45,14 +45,14 @@ NEW! ──── Part 6: AI Workloads (2026-specific)
 DO IT! ── Part 7: Lộ trình triển khai
 ```
 
-## 📊 Highlights
+## Highlights
 
 - **50+ bảng biểu** so sánh công nghệ, vendor, framework
 - **20+ diagrams** kiến trúc ASCII art
 - **70+ nguồn tham khảo** đã verify (NIST, Microsoft, Gartner, Zscaler, CISA...)
 - **Cập nhật 2026** — bao gồm AI workloads, NHI, ZT4AI, BSI/ANSSI guidelines
 
-## 📖 Cách đọc
+## Cách đọc
 
 **Nếu bạn mới bắt đầu:** Đọc từ Part 1 → Part 7 theo thứ tự.
 
@@ -60,7 +60,7 @@ DO IT! ── Part 7: Lộ trình triển khai
 
 **Nếu bạn quan tâm AI security:** Đọc Part 6 trước, sau đó Part 3 (Identity) để hiểu NHI.
 
-## 🔗 Frameworks & Standards tham chiếu
+## Frameworks & Standards tham chiếu
 
 | Framework | Vai trò |
 |-----------|---------|
@@ -71,13 +71,13 @@ DO IT! ── Part 7: Lộ trình triển khai
 | BSI/ANSSI Joint Publication (2026) | 6 design principles for LLM systems |
 | OWASP LLM Top 10 2025 | AI attack taxonomy |
 
-## 📝 License
+## License
 
 Nội dung được phát hành theo [Creative Commons Attribution-NonCommercial-ShareAlike 4.0](LICENSE).
 
 Bạn được phép chia sẻ và sử dụng cho mục đích phi thương mại với điều kiện ghi nguồn.
 
-## 🤝 Contributing
+## Contributing
 
 Đóng góp, sửa lỗi, bổ sung nguồn tham khảo được hoan nghênh. Vui lòng tạo issue hoặc pull request.
 
