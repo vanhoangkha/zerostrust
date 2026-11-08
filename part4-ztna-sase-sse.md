@@ -291,10 +291,10 @@ Manual policy authoring = operational ceiling cho Zero Trust adoption:
 
 ### 3. Measured in outcomes, not products purchased
 ```
-❌ "We deployed SASE"                    (procurement milestone)
-✓ "We retired the legacy VPN"           (outcome)
-✓ "MFA coverage is 98% of identity events" (outcome)
-✓ "Mean time to provision access: 4 hours" (outcome)
+"We deployed SASE" (procurement milestone)
+"We retired the legacy VPN" (outcome)
+"MFA coverage is 98% of identity events" (outcome)
+"Mean time to provision access: 4 hours" (outcome)
 ```
 
 ## Zero Trust ≠ SASE
