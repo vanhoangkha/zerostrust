@@ -31,11 +31,11 @@ Trong Zero Trust 2026, identity không chỉ là username/password. Nó bao gồ
 ```
 Mức độ yếu → mạnh:
 
-Password only          → ❌ Không chấp nhận
-Password + SMS OTP     → ⚠️  Phishing-susceptible
-Password + TOTP app    → ✓  Acceptable baseline
-Passkey (FIDO2/WebAuthn) → ✓✓ Phishing-resistant
-Hardware key (YubiKey)    → ✓✓✓ Strongest
+Password only → Không chấp nhận
+Password + SMS OTP → Phishing-susceptible
+Password + TOTP app → Acceptable baseline
+Passkey (FIDO2/WebAuthn) → Phishing-resistant
+Hardware key (YubiKey) → Strongest
 ```
 
 **Năm 2026:** Phishing-resistant MFA (FIDO2/WebAuthn/Passkeys) là minimum requirement cho privileged access.
@@ -95,10 +95,10 @@ Zero Trust 2026:
 #### Short-Lived Credentials — Nguyên tắc bắt buộc
 
 ```
-❌ Static secrets:
+Static secrets:
    API_KEY=sk-abc123...  (valid forever, stored in .env)
    
-✓ Short-lived credentials:
+Short-lived credentials:
    Token issued at 14:00, expires at 14:15
    Auto-rotated, never stored permanently
    Tied to specific workload identity
@@ -237,10 +237,10 @@ Mọi tool segmentation hiện đại đều hỗ trợ **non-blocking phase**:
 #### Bước 5: Chuyển sang identity-based rules
 
 ```
-❌ IP-based:  "10.0.4.0/24 can reach 10.0.6.0/24"
+IP-based: "10.0.4.0/24 can reach 10.0.6.0/24"
    → Breaks khi workload di chuyển
 
-✓ Identity-based: "order-service can read orders-db"
+Identity-based: "order-service can read orders-db"
    → Survives workload migration
 ```
 

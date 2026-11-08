@@ -214,12 +214,12 @@ credential_rotation: every 4 hours
 
 ```
 Document summarization agent:
-  ✓ document-retrieval (read)
-  ✓ text-summarization
-  ✗ code-execution
-  ✗ web-search
-  ✗ database-write
-  ✗ email-send
+  document-retrieval (read)
+  text-summarization
+  code-execution
+  web-search
+  database-write
+  email-send
   
 → Default: tool NOT on allow-list = BLOCKED
 → Addresses OWASP LLM06:2025 (Excessive Agency)
@@ -301,13 +301,13 @@ No implicit trust based on network location
 ### Retrieval Authorization in RAG
 
 ```python
-# ❌ BAD: No access control on retrieval
+# BAD: No access control on retrieval
 results = vector_store.query(
     embedding=query_embedding,
     top_k=10
 )
 
-# ✓ GOOD: Enforce user's access level
+# GOOD: Enforce user's access level
 results = vector_store.query(
     embedding=query_embedding,
     top_k=10,
@@ -459,7 +459,7 @@ Nó yêu cầu **rethinking**:
 
 Tất cả đều converge cùng conclusion: **Zero Trust truyền thống là necessary nhưng NOT sufficient cho AI workloads. Cần AI-specific controls layered on top.**
 
-👉 Đọc tiếp [Part 7: Lộ trình triển khai Zero Trust cho doanh nghiệp](part7-lo-trinh-trien-khai-zero-trust.md) — tổng hợp tất cả thành roadmap triển khai end-to-end, từ assessment đến production.
+Đọc tiếp [Part 7: Lộ trình triển khai Zero Trust cho doanh nghiệp](part7-lo-trinh-trien-khai-zero-trust.md) — tổng hợp tất cả thành roadmap triển khai end-to-end, từ assessment đến production.
 
 ---
 

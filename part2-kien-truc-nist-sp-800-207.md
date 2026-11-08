@@ -136,11 +136,11 @@ NIST không quy định thuật toán cụ thể, nhưng mô tả 2 cách tiếp
 ### 1. Criteria-based (Dựa trên tiêu chí)
 
 Kiểm tra xem các điều kiện cụ thể có được đáp ứng không:
-- ✅ Certificate hợp lệ trên device
-- ✅ Patch level hiện tại (qua MDM)
-- ✅ Địa lý origin trong danh sách approved
-- ✅ Thời gian truy cập trong window cho phép
-- ✅ Role phù hợp với resource
+- Certificate hợp lệ trên device
+- Patch level hiện tại (qua MDM)
+- Địa lý origin trong danh sách approved
+- Thời gian truy cập trong window cho phép
+- Role phù hợp với resource
 
 **Ưu điểm:** Dễ implement, dễ audit. Compliance teams thích.
 
@@ -265,14 +265,14 @@ Theo Global Tech Council và các industry guides, một chương trình Zero Tr
 
 ## Những điều Zero Trust KHÔNG nói
 
-### ❌ "Loại bỏ firewall và VPN"
+### "Loại bỏ firewall và VPN"
 
 Không. Zero Trust thay đổi **vai trò kiến trúc** của chúng:
 - Firewall vẫn hữu ích cho segmentation
 - VPN vẫn encrypt traffic
 - Nhưng chúng không còn là **trust boundary chính**
 
-### ❌ "Rip and replace toàn bộ hạ tầng"
+### "Rip and replace toàn bộ hạ tầng"
 
 NIST và CISA đều nhận ra Zero Trust là **hành trình nhiều năm**. CISA Maturity Model v2.0 định nghĩa 4 giai đoạn:
 1. **Traditional** — Perimeter-based, implicit trust
@@ -280,7 +280,7 @@ NIST và CISA đều nhận ra Zero Trust là **hành trình nhiều năm**. CIS
 3. **Advanced** — Tự động hóa, integration cross-pillars
 4. **Optimal** — Fully dynamic, data-driven decisions
 
-### ❌ "Không tin tưởng con người"
+### "Không tin tưởng con người"
 
 Zero Trust nhắm vào **implicit trust ở cấp kiến trúc**, không phải đánh giá về sự đáng tin cậy của user. Bất kỳ system/account/device nào cũng có thể bị compromise → không grant access dựa trên assumed trustworthiness.
 

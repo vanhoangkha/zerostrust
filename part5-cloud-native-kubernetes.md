@@ -45,7 +45,7 @@ Perimeter security giả định "inside" an toàn hơn. Điều đó phá vỡ 
 ### 2. Enforce Least Privilege
 
 ```yaml
-# ❌ BAD: Overly broad permissions
+# BAD: Overly broad permissions
 apiVersion: rbac.authorization.k8s.io/v1
 kind: Role
 metadata:
@@ -57,7 +57,7 @@ rules:
     verbs: ["*"]
 
 ---
-# ✓ GOOD: Only what the app needs
+# GOOD: Only what the app needs
 apiVersion: rbac.authorization.k8s.io/v1
 kind: Role
 metadata:
@@ -266,7 +266,7 @@ spec:
 ### 5. Secrets Management
 
 ```yaml
-# ❌ BAD: Secrets as environment variables
+# BAD: Secrets as environment variables
 env:
   - name: DB_PASSWORD
     valueFrom:
@@ -274,7 +274,7 @@ env:
         name: db-secret
         key: password
 
-# ✓ BETTER: External secrets with auto-rotation
+# BETTER: External secrets with auto-rotation
 apiVersion: external-secrets.io/v1beta1
 kind: ExternalSecret
 metadata:
